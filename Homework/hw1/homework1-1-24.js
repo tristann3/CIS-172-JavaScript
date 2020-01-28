@@ -27,7 +27,7 @@ for(x=0;x<10;x++)
 
 //loops ten more times
 while(x<20) {
-    console.log("This is while loop # " + (x + 1));
+    console.log("This is while loop # " + (x - 9));
     x++;
 }
 
