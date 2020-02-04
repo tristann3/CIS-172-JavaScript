@@ -3,7 +3,8 @@ Homework 1
 1/24/2020
 Tristan Thompson
 v1.0.0
- */
+Grade: 10 / 10
+*/
 
 let myName = "Tristan";
 let myMajor = "Associates in Applied Science in Computer Science";

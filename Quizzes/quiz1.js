@@ -6,7 +6,8 @@
  * @author      Tristan Thompson <tathompson6@hawkmail.hfcc.edu>
  * @date        01.30.2020
  * @link
-    */
+ * @grade       12 / 10
+ */
 
 // 2 pts
 // 1. Define a constant named favBook that holds the name of your favorite book.
