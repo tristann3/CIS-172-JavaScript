@@ -11,22 +11,8 @@ function chooseNum(number) {
         num2 = number;
 }
 //opChoice represents what the user chooses 1-add 2-subtract 3-multiply 4-divide
-//operator will be used for later switch logic
 function chooseOperator(opChoice) {
-    switch(opChoice) {
-        case 1:
-            operator = 1;
-            break;
-        case 2:
-            operator = 2;
-            break;
-        case 3:
-            operator = 3;
-            break;
-        case 4:
-            operator = 4;
-            break;
-    }
+        operator = opChoice;
 }
 function equals(num1, num2, operator) {
     if(num1!=null && num2!=null && num3!=null){
