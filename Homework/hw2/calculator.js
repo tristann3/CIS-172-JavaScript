@@ -45,5 +45,4 @@ function equals(num1, num2, operator) {
 function updateDisplay()
 {
     let answerLbl = document.getElementById("answerLabel");
-    answerLbl.innerHTML = answer;
 }
