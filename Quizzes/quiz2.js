@@ -5,8 +5,9 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      YOUR NAME <YOUREMAIL@hawkmail.hfcc.edu>
  * @date        2020.02.13
- * @link
-    */
+ * @grade       9.5 / 10
+ * @notes       Why are you using chooseOperator as the function name in the HTML? Shouldn't it be multiply?
+ **/
 
 // 3 pts
 // 1. Define a function that take two arguments, you can choose the name.
@@ -15,7 +16,7 @@ function multiply(num1, num2){
     return num1 * num2;
 }
 
-// 2 pts
+// 1/2 pts
 // 2. Create a button with an id of multiply, with text that says "Multiple 4 and 7"
 //      Add an onclick event to this button that calls the function above, passing in 4 and 7.
 //
@@ -34,7 +35,7 @@ function displayWelcomeMessage () {
 let myButton = document.getElementById("welcome");
 myButton.addEventListener("click", displayWelcomeMessage);
 
-// 1 ex pt
+// 0.5/1 ex pt
 // 5. Create an on hover event for one of the buttons above.
 //      This event can fire any function you would like.
-myButton.onmouseover(displayWelcomeMessage);
+myButton.addEventListener("mouseover", displayWelcomeMessage);
