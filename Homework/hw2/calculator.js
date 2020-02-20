@@ -1,3 +1,8 @@
+/**
+ * Grade    : 7 / 10
+ * Notes    : Answer did not rendeer; see diff or notes in updateDisplay function.
+ */
+
 // global scoped so that equals function can be exectued in html
 var num1 = null;
 var num2 = null;
@@ -22,27 +27,31 @@ function equals(num1, num2, operator) {
         switch(operator) {
             case 1:
                 answer = num1 + num2;
-                updateDisplay();
+                //updateDisplay();
                 break;
             case 2:
                 answer = num1 - num2;
-                updateDisplay();
+                //updateDisplay();
                 break;
             case 3:
                 answer = num1 * num2;
-                updateDisplay();
+                //updateDisplay();
                 break;
             case 4:
                 answer = num1 / num2;
-                updateDisplay();
+                //updateDisplay();
                 break;
         }
+
+        updateDisplay(answer);
     }
     else
         alert("Not enough variables");
         //console.log("you aint got nuff info for me to calculate your problems....you must have lots of those.......")
 }
-function updateDisplay()
+function updateDisplay(answer)
 {
     let answerLbl = document.getElementById("answerLabel");
+    // It looks like you grabbed the element here, but did not do the update.
+    // answerLbl.innerHTML = "Answer: " + answer;
 }
