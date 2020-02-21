@@ -14,7 +14,7 @@ let SiteUser = {
 
     Username: "tristann3",
     Email: "tathompson6@hawkmail.hfcc.edu",
-    Password: "NiceTryL0Ser",
+    Password: "NiceTryL0Ser", 
     Cart: ["Socks", "Shoes"],
     Cell: "248-248-2482",
     Visits: 26,
