@@ -5,8 +5,8 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      YOUR NAME <YOUREMAIL@hawkmail.hfcc.edu>
  * @date        2020.02.20
- * @link
-    */
+ * @grade       12 / 10
+ * */
 
 // 2 pts
 // 1. Define an object called SiteUser.
