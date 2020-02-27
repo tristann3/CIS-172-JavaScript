@@ -3,6 +3,8 @@
  *
  * Tristan Thompson
  * 2/21/2020
+ * 
+ * Grade:  10 / 10
  **/
 //Declare tweetCollection Array
 var tweetCollection = [];
