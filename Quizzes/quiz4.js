@@ -18,7 +18,7 @@ let foot = document.getElementById('myFoot');
 
 // 2.5 / 3 pts
 // 2. Add an event to my footer to fire a method when clicked. Any method name is fine.
-foot.addEventListener('click', anyMethodName;
+foot.addEventListener('click', anyMethodName );
 
 // 2 pts
 // 3. Store my title element in a variable called myTitle.
