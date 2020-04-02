@@ -29,8 +29,8 @@ let SiteUser = {
     },
     addItemToCart: function (item)
     {
-        SiteUser.Cart.append(item);
-    }
+    SiteUser.Cart.append(item);
+}
 };
 window.onload = SiteUser.init;
 SiteUser.addVisit();
