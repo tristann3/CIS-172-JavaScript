@@ -1,3 +1,7 @@
+/**
+ * Homework 5
+ * @grade		8 / 10
+ */
 let ErrorHandler = {
 
     init: function( )
@@ -14,7 +18,7 @@ let ErrorHandler = {
             let happyMessage;
             var errorMessage = '<span style = "color:red;">Sorry, an error occurred!</span>';
 
-            if((todayDate.getDay()==2) || (todayDate.getDay()==4))
+            if((todayDate.getDay()===2) || (todayDate.getDay()===4))
             {
                 happyMessage = "Welcome to class!"
             }
