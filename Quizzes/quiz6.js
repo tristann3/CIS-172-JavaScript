@@ -5,7 +5,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      YOUR NAME <YOUREMAIL@hawkmail.hfcc.edu>
  * @date        2020.04.09
- * @grade
+ * @grade       9.5 / 10
  */
 
 //Use this form as a reference for all questions below, but complete all of them using JavaScript (No HTML).
@@ -37,6 +37,8 @@ function validateAndSaveEmail()
 {
     if (email.length < 5 )
         throw new Error("Email must be longer than 5 characters!");
+
+    // Nice custom solution, there are easier ways to do this though using the JS libraries
     for (let x=0;x<email.length;x++)
     {
         let counter = 0;
@@ -74,6 +76,13 @@ function onFavCoinChange()
         console.log("You may be making a huge mistake...")
 }
 
-// 2 pts
+// 1,5 / 2 pts
 // 5. Create an event that fires both functions created above when the form is submitted.
-favoriteCoin.addEventListener("click", validateAndSaveEmail, onFavCoinChange);
+
+function OnSubmit()
+{
+    validateAndSaveEmail();
+    onFavCoinChange();
+}
+favoriteCoin.addEventListener("click", OnSubmit); 
+// Only one call back per event, so call both in the callback
