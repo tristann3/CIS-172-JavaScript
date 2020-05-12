@@ -7,19 +7,13 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      YOUR NAME <tathompson6@hawkmail.hfcc.edu>
  * @date        2020.05.07
- * @grade
+ * @grade       9.5 / 10
  */
 try {
-// 1 pts
+// 0.5 / 1 pts
 // 1. Take this JSON string below, and convert it into an object called discordUser using the JSON library.
 // {"uid":64029,"name":"Jon","age":47,"type":"paid","games":["D&D","Halo","Mario"]}
-    var discordUser = JSON.parse({
-        "uid": 64029,
-        "name": "Jon",
-        "age": 47,
-        "type": "paid",
-        "games": ["D&D", "Halo", "Mario"]
-    });
+    var discordUser = JSON.parse( '{"uid":64029,"name":"Jon","age":47,"type":"paid","games":["D&D","Halo","Mario"]}' );
 
 // 2 pts
 // 2. Load the discordUser object created above into a localStorage object called currentUser.
