@@ -53,6 +53,7 @@ let PageManager = {
             //this line replaces escape characters returned from the API so that the HTML can read and format looks nice
             str = str.replace(/(?:\r\n|\r|\n)/g, '<br>')
             document.getElementById("output").innerHTML = str;
+            console.log(response.responseText);
         }
         else if( response.status == '404' )
         {
