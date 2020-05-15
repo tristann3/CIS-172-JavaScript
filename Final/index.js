@@ -7,7 +7,7 @@
  * @category    Final
  * @author      YOURNAME
  * @date        2020.05.12
- * @grade
+ * @grade       95 / 100
  *
  **/
 
@@ -80,8 +80,8 @@ var pagejs = {
     onButtonClick: function()
     {
         console.log("BUY BUTTON!");
-        $.ajax( {method: "POST", url: "https://nottesla.com/api/v2/page/metrics"} ); //ajax post request to fake api
-        localStorage.setItem("metrics", metrics);//saves metrics into local storage
+        $.ajax( {method: "POST", url: "https://nottesla.com/api/v2/page/metrics", data:pagejs.metric} ); //ajax post request to fake api
+        localStorage.setItem("metrics", pagejs.metric);//saves metrics into local storage
 
     }
 };
